@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tic-tac-toe"
+version = "0.0.1"
+description = "A classic tic-tac-toe game with a graphical interface."
+authors = [
+    "Ivan (Shideo0) <dastersoof@gmail.com>",
+    "Egor <egorelizarov689@gmail.com>"
+]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "tictactoe.py"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
